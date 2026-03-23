@@ -1,0 +1,27 @@
+=== SALES ANALYSIS REPORT ===
+
+Total Orders:
+  → 128976
+
+Cancelled Orders:
+  → 18161
+
+Orders by Status:
+  → Shipped: 77037
+  → Shipped - Delivered to Buyer: 28415
+  → Cancelled: 18161
+  → Shipped - Returned to Seller: 1928
+  → Shipped - Picked Up: 960
+  → Pending: 652
+  → Pending - Waiting for Pick Up: 278
+  → Shipped - Returning to Seller: 145
+  → Shipped - Out for Delivery: 35
+  → Shipped - Rejected by Buyer: 11
+  → Shipping: 8
+  → Shipped - Lost in Transit: 5
+  → Shipped - Damaged: 1
+
+Orders by Fulfilment:
+  → Amazon: 88827
+  → Merchant: 38809
+
