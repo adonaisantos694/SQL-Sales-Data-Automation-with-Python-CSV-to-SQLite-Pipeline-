@@ -1,4 +1,5 @@
 SQL Sales Data Automation with Python
+
 🚀 Overview
 
 This project automates the end-to-end process of transforming raw CSV sales data into actionable insights using Python and SQL.
@@ -20,12 +21,15 @@ Python
 SQLite
 CSV module
 Type Hints (for clean, maintainable code)
+
 📁 Project Structure
 ├── amazonsale1.csv   # Input dataset
 ├── sales.db          # Generated SQLite database
 ├── report.txt        # Final analysis report
 ├── main.py           # Main automation script
+
 ⚙️ How It Works
+
 1. Database Reset
 
 Removes any existing database to ensure a clean run.
@@ -38,10 +42,12 @@ Order ID
 Date
 Status
 Fulfilment
+
 3. Data Insertion
 Reads CSV file
 Cleans missing values
 Inserts data into SQLite
+
 4. SQL Queries
 
 Executes analytical queries such as:
@@ -50,6 +56,7 @@ Total number of orders
 Number of cancelled orders
 Orders grouped by status
 Orders grouped by fulfilment type
+
 5. Report Generation
 
 Creates a structured text report with all results.
@@ -63,6 +70,7 @@ Run the script:
 python main.py
 Check the output:
 report.txt
+
 📌 Example Output
 === SALES ANALYSIS REPORT ===
 
@@ -76,12 +84,14 @@ Orders by Status:
   → Shipped: 700
   → Cancelled: 230
   → Pending: 320
+
 💡 What This Project Demonstrates
 Building a simple ETL pipeline
 Writing efficient SQL queries
 Handling real-world messy data
 Automating repetitive data workflows
 Writing clean, structured Python code
+
 🎯 Future Improvements
 Add data visualization (e.g., dashboards)
 Export reports in CSV or PDF
